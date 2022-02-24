@@ -1,4 +1,5 @@
-const xhr = new XMLHttpRequest(); // intanciamos ajax
+// intanciamos ajax
+const xhr = new XMLHttpRequest(); 
 const $container = document.querySelector('.container');
 const $template = document.getElementById('datosList').content;
 const $fragment = document.createDocumentFragment();
